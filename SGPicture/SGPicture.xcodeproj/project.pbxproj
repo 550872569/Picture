@@ -11,11 +11,11 @@
 		6C0A5A38A3D53D92C124FAE6 /* libPods-SGPictureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D249CFCF1819B930860E88 /* libPods-SGPictureUITests.a */; };
 		8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */; };
 		8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9661202ABE1500C1FCC7 /* ViewController.m */; };
-		8D6B966D202ABE1500C1FCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B966C202ABE1500C1FCC7 /* main.m */; };
 		8D6B9677202ABE1500C1FCC7 /* SGPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9676202ABE1500C1FCC7 /* SGPictureTests.m */; };
 		8D6B9682202ABE1500C1FCC7 /* SGPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9681202ABE1500C1FCC7 /* SGPictureUITests.m */; };
-		8D6B9690202ABE9500C1FCC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B968F202ABE9500C1FCC7 /* Images.xcassets */; };
 		8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B969B202AC41900C1FCC7 /* SGNavigationController.m */; };
+		8D6B96A1202ACD7700C1FCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B969F202ACD7700C1FCC7 /* main.m */; };
+		8D6B96A2202ACD7700C1FCC7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B96A0202ACD7700C1FCC7 /* Info.plist */; };
 		9961D7517EB3B7A48DEB3596 /* libPods-SGPictureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADB4BB1ABB5AF6B45528E6 /* libPods-SGPictureTests.a */; };
 /* End PBXBuildFile section */
 
@@ -43,18 +43,17 @@
 		8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8D6B9660202ABE1500C1FCC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8D6B9661202ABE1500C1FCC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8D6B966B202ABE1500C1FCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D6B966C202ABE1500C1FCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D6B9672202ABE1500C1FCC7 /* SGPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B9676202ABE1500C1FCC7 /* SGPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPictureTests.m; sourceTree = "<group>"; };
 		8D6B9678202ABE1500C1FCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6B967D202ABE1500C1FCC7 /* SGPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B9681202ABE1500C1FCC7 /* SGPictureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPictureUITests.m; sourceTree = "<group>"; };
 		8D6B9683202ABE1500C1FCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D6B968F202ABE9500C1FCC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8D6B9691202AC17300C1FCC7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8D6B969A202AC41900C1FCC7 /* SGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGNavigationController.h; sourceTree = "<group>"; };
 		8D6B969B202AC41900C1FCC7 /* SGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGNavigationController.m; sourceTree = "<group>"; };
+		8D6B969E202ACD5700C1FCC7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8D6B969F202ACD7700C1FCC7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D6B96A0202ACD7700C1FCC7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93C013CEA40C53D962D3833B /* libPods-SGPicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGPicture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2EF1B07BFC880494339571 /* Pods-SGPictureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPictureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGPictureUITests/Pods-SGPictureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5C713BFCAD68F0BB7E254AC /* Pods-SGPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPicture.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGPicture/Pods-SGPicture.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,9 +140,11 @@
 		8D6B965C202ABE1400C1FCC7 /* SGPicture */ = {
 			isa = PBXGroup;
 			children = (
+				8D6B96A0202ACD7700C1FCC7 /* Info.plist */,
+				8D6B969F202ACD7700C1FCC7 /* main.m */,
+				8D6B969E202ACD5700C1FCC7 /* PrefixHeader.pch */,
 				8D6B9692202AC2E200C1FCC7 /* AppDelegate */,
 				8D6B9697202AC38400C1FCC7 /* Classes */,
-				8D6B969D202AC48200C1FCC7 /* Supporting Files */,
 			);
 			path = SGPicture;
 			sourceTree = "<group>";
@@ -216,17 +217,6 @@
 				8D6B969B202AC41900C1FCC7 /* SGNavigationController.m */,
 			);
 			path = NavigationController;
-			sourceTree = "<group>";
-		};
-		8D6B969D202AC48200C1FCC7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D6B966B202ABE1500C1FCC7 /* Info.plist */,
-				8D6B9691202AC17300C1FCC7 /* PrefixHeader.pch */,
-				8D6B966C202ABE1500C1FCC7 /* main.m */,
-				8D6B968F202ABE9500C1FCC7 /* Images.xcassets */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6B9690202ABE9500C1FCC7 /* Images.xcassets in Resources */,
+				8D6B96A2202ACD7700C1FCC7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +508,7 @@
 			files = (
 				8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */,
 				8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */,
-				8D6B966D202ABE1500C1FCC7 /* main.m in Sources */,
+				8D6B96A1202ACD7700C1FCC7 /* main.m in Sources */,
 				8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
