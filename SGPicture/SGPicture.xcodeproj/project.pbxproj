@@ -15,7 +15,6 @@
 		8D6B9682202ABE1500C1FCC7 /* SGPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9681202ABE1500C1FCC7 /* SGPictureUITests.m */; };
 		8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B969B202AC41900C1FCC7 /* SGNavigationController.m */; };
 		8D6B96A1202ACD7700C1FCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B969F202ACD7700C1FCC7 /* main.m */; };
-		8D6B96A2202ACD7700C1FCC7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B96A0202ACD7700C1FCC7 /* Info.plist */; };
 		9961D7517EB3B7A48DEB3596 /* libPods-SGPictureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ADB4BB1ABB5AF6B45528E6 /* libPods-SGPictureTests.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +114,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2C20BA45202EB30F001FE2F0 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 		8D6B9651202ABE1400C1FCC7 = {
 			isa = PBXGroup;
 			children = (
@@ -185,17 +191,10 @@
 			path = Widget;
 			sourceTree = "<group>";
 		};
-		8D6B9696202AC36200C1FCC7 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
 		8D6B9697202AC38400C1FCC7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8D6B9696202AC36200C1FCC7 /* Framework */,
+				2C20BA45202EB30F001FE2F0 /* Framework */,
 				8D6B9695202AC33200C1FCC7 /* Widget */,
 			);
 			path = Classes;
@@ -290,7 +289,7 @@
 		8D6B9652202ABE1400C1FCC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = sogou;
 				TargetAttributes = {
 					8D6B9659202ABE1400C1FCC7 = {
@@ -334,7 +333,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6B96A2202ACD7700C1FCC7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
