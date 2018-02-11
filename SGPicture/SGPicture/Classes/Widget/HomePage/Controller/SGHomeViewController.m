@@ -7,6 +7,8 @@
 //
 
 #import "SGHomeViewController.h"
+#import "SGHomeRefreshControl.h"
+#import "SGHomeTableView.h"
 
 @interface SGHomeViewController ()
 
@@ -30,13 +32,21 @@
 
 #pragma mark - ACTION
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
+    NSLog(@"self:%@",self);
+}
+
+- (void)private_refreshControlAction:(id)sender {
     NSLog(@"self:%@",self);
 }
 
 #pragma mark - INIT
 - (void)private_initUI {
     self.view.backgroundColor = [UIColor whiteColor];
+    UIRefreshControl *homeRefreshControl = [[UIRefreshControl alloc] initWithFrame:CGRectZero];
+    [homeRefreshControl addTarget:self action:@selector(private_refreshControlAction:) forControlEvents:UIControlEventValueChanged];
+    self.refreshControl = homeRefreshControl;
+    SGHomeTableView *homeTableView = [[SGHomeTableView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    self.tableView = homeTableView;
 }
 
 #pragma mark - SET

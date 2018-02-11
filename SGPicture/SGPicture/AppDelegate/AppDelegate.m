@@ -9,14 +9,12 @@
 #import "AppDelegate.h"
 #import "SGNavigationController.h"
 #import "SGHomeViewController.h"
-#import "SGHomeTableView.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self initRootVCAndMakeKeyWindowVisible];
@@ -25,12 +23,9 @@
 
 - (void)initRootVCAndMakeKeyWindowVisible {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    SGHomeViewController *homeVC = [[SGHomeViewController alloc] init];
-    homeVC.tableView = [[SGHomeTableView alloc] init];
-    self.window.rootViewController = [[SGNavigationController alloc]initWithRootViewController:homeVC];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[SGNavigationController alloc] initWithRootViewController:[[SGHomeViewController alloc] init]];
 }
-
 
 @end
