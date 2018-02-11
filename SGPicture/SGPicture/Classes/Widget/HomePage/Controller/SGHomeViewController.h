@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SGHomeViewController : UITableViewController
+@interface SGHomeViewController : UIViewController
 
 @end
 

@@ -10,12 +10,12 @@
 
 @implementation SGHomeRefreshControl
 
-//- (instancetype)init {
-//    self = [super init];
-//    if (self) {
-//        self.backgroundColor = [UIColor grayColor];        
-//    }
-//    return self;
-//}
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = [UIColor grayColor];
+    }
+    return self;
+}
 
 @end
