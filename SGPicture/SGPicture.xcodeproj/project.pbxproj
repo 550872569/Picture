@@ -10,7 +10,7 @@
 		28016903D9F8D388FCB2622D /* libPods-SGPicture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C013CEA40C53D962D3833B /* libPods-SGPicture.a */; };
 		6C0A5A38A3D53D92C124FAE6 /* libPods-SGPictureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D249CFCF1819B930860E88 /* libPods-SGPictureUITests.a */; };
 		8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */; };
-		8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9661202ABE1500C1FCC7 /* ViewController.m */; };
+		8D6B9662202ABE1500C1FCC7 /* SGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9661202ABE1500C1FCC7 /* SGHomeViewController.m */; };
 		8D6B9677202ABE1500C1FCC7 /* SGPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9676202ABE1500C1FCC7 /* SGPictureTests.m */; };
 		8D6B9682202ABE1500C1FCC7 /* SGPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9681202ABE1500C1FCC7 /* SGPictureUITests.m */; };
 		8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B969B202AC41900C1FCC7 /* SGNavigationController.m */; };
@@ -41,8 +41,8 @@
 		8D6B965A202ABE1400C1FCC7 /* SGPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B965D202ABE1400C1FCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D6B9660202ABE1500C1FCC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D6B9661202ABE1500C1FCC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D6B9660202ABE1500C1FCC7 /* SGHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeViewController.h; sourceTree = "<group>"; };
+		8D6B9661202ABE1500C1FCC7 /* SGHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeViewController.m; sourceTree = "<group>"; };
 		8D6B9672202ABE1500C1FCC7 /* SGPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B9676202ABE1500C1FCC7 /* SGPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPictureTests.m; sourceTree = "<group>"; };
 		8D6B9678202ABE1500C1FCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,8 +204,8 @@
 		8D6B9698202AC3C300C1FCC7 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				8D6B9660202ABE1500C1FCC7 /* ViewController.h */,
-				8D6B9661202ABE1500C1FCC7 /* ViewController.m */,
+				8D6B9660202ABE1500C1FCC7 /* SGHomeViewController.h */,
+				8D6B9661202ABE1500C1FCC7 /* SGHomeViewController.m */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -506,7 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */,
+				8D6B9662202ABE1500C1FCC7 /* SGHomeViewController.m in Sources */,
 				8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */,
 				8D6B96A1202ACD7700C1FCC7 /* main.m in Sources */,
 				8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */,

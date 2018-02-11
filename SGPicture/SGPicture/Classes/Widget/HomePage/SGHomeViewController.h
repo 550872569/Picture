@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SGHomeViewController
 //  SGPicture
 //
 //  Created by sogou-Yan on 2018/2/7.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SGHomeViewController : UITableViewController
 
 @end
 

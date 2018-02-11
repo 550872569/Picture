@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  SGPicture
 //
 //  Created by sogou-Yan on 2018/2/7.
 //  Copyright © 2018年 sogou. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SGHomeViewController.h"
 
-@interface ViewController ()
+@interface SGHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SGHomeViewController
 
 #pragma mark - view cycle
 - (void)viewDidLoad {
