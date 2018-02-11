@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "SGNavigationController.h"
 #import "SGHomeViewController.h"
+#import "SGHomeTableView.h"
+
 @interface AppDelegate ()
 
 @end
@@ -25,7 +27,9 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[SGNavigationController alloc]initWithRootViewController:[[SGHomeViewController alloc] init]];
+    SGHomeViewController *homeVC = [[SGHomeViewController alloc] init];
+    homeVC.tableView = [[SGHomeTableView alloc] init];
+    self.window.rootViewController = [[SGNavigationController alloc]initWithRootViewController:homeVC];
 }
 
 
