@@ -18,8 +18,10 @@
 		2C20BA55202EB420001FE2F0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA50202EB420001FE2F0 /* Reachability.m */; };
 		2C20BA56202EB420001FE2F0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA50202EB420001FE2F0 /* Reachability.m */; };
 		6C0A5A38A3D53D92C124FAE6 /* libPods-SGPictureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D249CFCF1819B930860E88 /* libPods-SGPictureUITests.a */; };
+		8D26190F202FE6D900E38959 /* SGHomeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D26190E202FE6D900E38959 /* SGHomeTableView.m */; };
+		8D261912202FE7AC00E38959 /* SGHomeRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D261911202FE7AC00E38959 /* SGHomeRefreshControl.m */; };
 		8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */; };
-		8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9661202ABE1500C1FCC7 /* ViewController.m */; };
+		8D6B9662202ABE1500C1FCC7 /* SGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9661202ABE1500C1FCC7 /* SGHomeViewController.m */; };
 		8D6B9677202ABE1500C1FCC7 /* SGPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9676202ABE1500C1FCC7 /* SGPictureTests.m */; };
 		8D6B9682202ABE1500C1FCC7 /* SGPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9681202ABE1500C1FCC7 /* SGPictureUITests.m */; };
 		8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B969B202AC41900C1FCC7 /* SGNavigationController.m */; };
@@ -52,11 +54,15 @@
 		2C20BA4F202EB420001FE2F0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		2C20BA50202EB420001FE2F0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		87ADB4BB1ABB5AF6B45528E6 /* libPods-SGPictureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGPictureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D26190D202FE6D900E38959 /* SGHomeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeTableView.h; sourceTree = "<group>"; };
+		8D26190E202FE6D900E38959 /* SGHomeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeTableView.m; sourceTree = "<group>"; };
+		8D261910202FE7AC00E38959 /* SGHomeRefreshControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeRefreshControl.h; sourceTree = "<group>"; };
+		8D261911202FE7AC00E38959 /* SGHomeRefreshControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeRefreshControl.m; sourceTree = "<group>"; };
 		8D6B965A202ABE1400C1FCC7 /* SGPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B965D202ABE1400C1FCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D6B9660202ABE1500C1FCC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D6B9661202ABE1500C1FCC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D6B9660202ABE1500C1FCC7 /* SGHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGHomeViewController.h; sourceTree = "<group>"; };
+		8D6B9661202ABE1500C1FCC7 /* SGHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGHomeViewController.m; sourceTree = "<group>"; };
 		8D6B9672202ABE1500C1FCC7 /* SGPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B9676202ABE1500C1FCC7 /* SGPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPictureTests.m; sourceTree = "<group>"; };
 		8D6B9678202ABE1500C1FCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -240,8 +246,8 @@
 		8D6B9698202AC3C300C1FCC7 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				8D6B9660202ABE1500C1FCC7 /* ViewController.h */,
-				8D6B9661202ABE1500C1FCC7 /* ViewController.m */,
+				8D26190B202FE6A200E38959 /* Controller */,
+				8D26190C202FE6B200E38959 /* View */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -541,7 +547,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */,
+				8D26190F202FE6D900E38959 /* SGHomeTableView.m in Sources */,
+				8D6B9662202ABE1500C1FCC7 /* SGHomeViewController.m in Sources */,
 				8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */,
 				8D6B96A1202ACD7700C1FCC7 /* main.m in Sources */,
 				2C20BA54202EB420001FE2F0 /* Reachability.m in Sources */,

@@ -7,14 +7,14 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "SGNavigationController.h"
+#import "SGHomeViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self initRootVCAndMakeKeyWindowVisible];
@@ -23,10 +23,9 @@
 
 - (void)initRootVCAndMakeKeyWindowVisible {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[ViewController alloc]init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[SGNavigationController alloc] initWithRootViewController:[[SGHomeViewController alloc] init]];
 }
-
 
 @end

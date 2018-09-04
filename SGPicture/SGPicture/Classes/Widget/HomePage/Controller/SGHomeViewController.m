@@ -1,18 +1,22 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  SGPicture
 //
 //  Created by sogou-Yan on 2018/2/7.
 //  Copyright © 2018年 sogou. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SGHomeViewController.h"
+#import "SGHomeRefreshControl.h"
+#import "SGHomeTableView.h"
 
-@interface ViewController ()
+@interface SGHomeViewController () {
+    SGHomeTableView *_homeTableView;
+}
 
 @end
 
-@implementation ViewController
+@implementation SGHomeViewController
 
 #pragma mark - view cycle
 - (void)viewDidLoad {
@@ -30,13 +34,16 @@
 
 #pragma mark - ACTION
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
     NSLog(@"self:%@",self);
 }
+
+
 
 #pragma mark - INIT
 - (void)private_initUI {
     self.view.backgroundColor = [UIColor whiteColor];
+    _homeTableView = [[SGHomeTableView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    [self.view addSubview:_homeTableView];
 }
 
 #pragma mark - SET
