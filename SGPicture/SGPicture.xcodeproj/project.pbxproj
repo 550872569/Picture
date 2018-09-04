@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		28016903D9F8D388FCB2622D /* libPods-SGPicture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C013CEA40C53D962D3833B /* libPods-SGPicture.a */; };
+		2C20BA49202EB3C9001FE2F0 /* ANFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA47202EB3C9001FE2F0 /* ANFileUtils.m */; };
+		2C20BA4A202EB3C9001FE2F0 /* ANFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA47202EB3C9001FE2F0 /* ANFileUtils.m */; };
+		2C20BA4B202EB3C9001FE2F0 /* ANFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA47202EB3C9001FE2F0 /* ANFileUtils.m */; };
+		2C20BA51202EB420001FE2F0 /* ANNetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA4D202EB420001FE2F0 /* ANNetworkStatusManager.m */; };
+		2C20BA52202EB420001FE2F0 /* ANNetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA4D202EB420001FE2F0 /* ANNetworkStatusManager.m */; };
+		2C20BA53202EB420001FE2F0 /* ANNetworkStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA4D202EB420001FE2F0 /* ANNetworkStatusManager.m */; };
+		2C20BA54202EB420001FE2F0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA50202EB420001FE2F0 /* Reachability.m */; };
+		2C20BA55202EB420001FE2F0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA50202EB420001FE2F0 /* Reachability.m */; };
+		2C20BA56202EB420001FE2F0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C20BA50202EB420001FE2F0 /* Reachability.m */; };
 		6C0A5A38A3D53D92C124FAE6 /* libPods-SGPictureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D249CFCF1819B930860E88 /* libPods-SGPictureUITests.a */; };
 		8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B965E202ABE1400C1FCC7 /* AppDelegate.m */; };
 		8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B9661202ABE1500C1FCC7 /* ViewController.m */; };
@@ -36,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C20BA47202EB3C9001FE2F0 /* ANFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANFileUtils.m; sourceTree = "<group>"; };
+		2C20BA48202EB3C9001FE2F0 /* ANFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANFileUtils.h; sourceTree = "<group>"; };
+		2C20BA4D202EB420001FE2F0 /* ANNetworkStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANNetworkStatusManager.m; sourceTree = "<group>"; };
+		2C20BA4E202EB420001FE2F0 /* ANNetworkStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANNetworkStatusManager.h; sourceTree = "<group>"; };
+		2C20BA4F202EB420001FE2F0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2C20BA50202EB420001FE2F0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		87ADB4BB1ABB5AF6B45528E6 /* libPods-SGPictureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGPictureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B965A202ABE1400C1FCC7 /* SGPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B965D202ABE1400C1FCC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,8 +132,30 @@
 		2C20BA45202EB30F001FE2F0 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				2C20BA4C202EB3FE001FE2F0 /* connectivity */,
+				2C20BA46202EB39C001FE2F0 /* utility */,
 			);
 			path = Framework;
+			sourceTree = "<group>";
+		};
+		2C20BA46202EB39C001FE2F0 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				2C20BA48202EB3C9001FE2F0 /* ANFileUtils.h */,
+				2C20BA47202EB3C9001FE2F0 /* ANFileUtils.m */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		2C20BA4C202EB3FE001FE2F0 /* connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				2C20BA4E202EB420001FE2F0 /* ANNetworkStatusManager.h */,
+				2C20BA4D202EB420001FE2F0 /* ANNetworkStatusManager.m */,
+				2C20BA4F202EB420001FE2F0 /* Reachability.h */,
+				2C20BA50202EB420001FE2F0 /* Reachability.m */,
+			);
+			path = connectivity;
 			sourceTree = "<group>";
 		};
 		8D6B9651202ABE1400C1FCC7 = {
@@ -507,6 +544,9 @@
 				8D6B9662202ABE1500C1FCC7 /* ViewController.m in Sources */,
 				8D6B969C202AC41900C1FCC7 /* SGNavigationController.m in Sources */,
 				8D6B96A1202ACD7700C1FCC7 /* main.m in Sources */,
+				2C20BA54202EB420001FE2F0 /* Reachability.m in Sources */,
+				2C20BA51202EB420001FE2F0 /* ANNetworkStatusManager.m in Sources */,
+				2C20BA49202EB3C9001FE2F0 /* ANFileUtils.m in Sources */,
 				8D6B965F202ABE1400C1FCC7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +555,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C20BA52202EB420001FE2F0 /* ANNetworkStatusManager.m in Sources */,
+				2C20BA4A202EB3C9001FE2F0 /* ANFileUtils.m in Sources */,
+				2C20BA55202EB420001FE2F0 /* Reachability.m in Sources */,
 				8D6B9677202ABE1500C1FCC7 /* SGPictureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +566,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C20BA53202EB420001FE2F0 /* ANNetworkStatusManager.m in Sources */,
+				2C20BA4B202EB3C9001FE2F0 /* ANFileUtils.m in Sources */,
+				2C20BA56202EB420001FE2F0 /* Reachability.m in Sources */,
 				8D6B9682202ABE1500C1FCC7 /* SGPictureUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
